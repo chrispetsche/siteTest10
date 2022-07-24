@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic elements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chris Petsche ~ Portfolio ~</title>
+
+    <!-- Links and extensions -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fa0cbf6eab.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=El+Messiri|Kaushan+Script|Niconne|Open+Sans:800|Oregano|Philosopher|Teko|Quicksand&display=swap');
+    </style>
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/siteMainStyles.css">
+    <link rel="stylesheet" href="landingPageStyles.css">
+    <link rel="stylesheet" href="projectPageStyles.css">
+    <link rel="stylesheet" href="css/additionalFeatureStyles.css">
+    <link rel="stylesheet" href="css/glowButtonStyle.css">
+</head>
+
+<body onload="InitializeFunctionsAndInteractions()">
+    
+    <!-- top of page button -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- header: top of screen -->
+    <header id="header">
+        <div>
+            <div class="site-title-container">
+                <h1 class="site-title"><a href="portfolioLandingPage.html">Chris Petsche</a></h1>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <h5 class="siteTypeText">~ Portfolio ~</h5>
+            </div>
+        </div>
+    </header>
+
+    <!--  -->
+    <div id="side-profile">
+        <div class="profile">
+            <img src="img/MFAGradPic.png" alt="" class="img-fluid rounded-circle">
+        </div>
+        <!-- Navigation menu-->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html#home" class="side-profile-btn neon-nav-button">Home</a></li>
+                <li><a href="#project-header" class="side-profile-btn neon-nav-button">Project Intro</a></li>
+                <li><a href="#project-description" class="side-profile-btn neon-nav-button">Project Description</a></li>
+                <li><a href="#contributions" class="side-profile-btn neon-nav-button">My Contributions</a></li>
+                <li><a href="#project-status-availability" class="side-profile-btn neon-nav-button">Status and Availability</a></li>
+                <li><a href="index.html#contact" class="side-profile-btn neon-nav-button">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- footer section start -->
+        <div class="header-base">
+            <span>Site Created By <a href="#">Chris Petsche</a> ~ <span class="far fa-copywrite"></span> 2021 All rights reserved.</span>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="pg-main-body">
+        <!-- project intro section start -->
+        <section class="project-header" id="project-header">
+            <div class="max-width">
+                <div class="project-header-content">
+                    <div class="projectTitle-img-container">
+                        <img id="project-header-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_OpeningScreen_Fitted.png" alt="">
+                    </div>
+                    <!--<p>A virtual tour shown via VR and WebGL created to provide a double means of: <br> - Visually pitching redesign and update suggestions for various Lucky Strike Social locations <br> - Presenting potential offsite clients with a way of seeing the venue without actually visiting <br> With the intent of assisting the company with their journey into the future!!!</p>-->
+                    <p class="project-header-text">A virtual experience created to provide a double means of: 
+                        visually pitching redesign and update suggestions for various Lucky Strike Social locations,
+                        presenting potential offsite clients with a way of seeing the venue without actually visiting. 
+                        <br> 
+                        <br> 
+                        A project intented to assist a company I loved working for with their journey into the future!!!
+                    </p>  
+                    <hr>
+                    
+                    <div class="project-header-img-container">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- project description section start -->
+        <section class="project-description" id="project-description">
+            <div class="max-width">
+                <h2 class="title">Project description</h2>
+                <div class="project-description-content">
+                    <div class="project-text">
+                        <p>After completing grad school my goal was to create my own studio and use what I had shared in my thesis 
+                            that earned my masters degree as the foundation for doing so. While playing with a few concepts and 
+                            trying to settle on my first project since I was free of the 2 year crunch on my thesis, the assistant 
+                            general manager at my day job knew I could model and built environments during my schooling and came to 
+                            me with a request.
+                            </p>
+                    </div>
+                    <!-- image of wallpaper wall before the velcrow was put on -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above of step and repeat wall before designs</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The company was going through several changes at the time, and even though I was not part of management, 
+                            they always welcomed my ideas and treated me as if I were one of the management team. Naturally, when 
+                            you love someone or something you become passionate about making the world around that love better. The 
+                            people at Lucky Strike were like an extended part of my family. So when the AGM came asking for ideas on 
+                            how to pretty up a particularly ugly wall and try to make it a focal point rather than an eye sore, I 
+                            dove in head over heals.
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>Redesigning a single wall quickly turned into redesigning an adjacent room. A room grew to the entire venue. 
+                            And soon, it blew up into a multi-purpose virtual tour.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- my contributions section start -->
+        <section class="contributions" id="contributions">
+            <div class="max-width">
+                <h2 class="title">My contributions</h2>
+                <div class="contributions-description-content">
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">3D Modeling</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>The count before stopping the project was at 250 models that had been created. Ranging from the large structural 
+                            pieces down to the salt and pepper shakers, everything in the venue was meticulously measure to within 
+                            1/8th of an inch of being perfectly accurate. Then, for the more detailed creations, 2 versions were 
+                            produced and textured to suit both the VR close-up and distant views, as well as a reduced scale version 
+                            for the WebGL portion of the project.
+                            </p>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Einstein Room</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Dining Room</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Control Desk</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Main Lanes</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Green Room</h4>
+                    </div>
+
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Lighting and Effects</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Einstein Room</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Dining Room</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Control Desk</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Main Lanes</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Green Room</h4>
+                    </div>
+
+
+                    
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Level Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Tour Path</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Tour Events</h4>
+                    </div>
+
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">UI Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Presentation Panels</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Tour Guide</h4>
+                    </div>
+
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Prototyping and Testing</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Building for VR</h4>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Building for WebGL</h4>
+                    </div>
+                    
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Remodel Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Step and Repeat Wall</h4>
+                        </div>
+                        <p>The design here seemed straight forward to me. The wall ran parallel to the walls that gave the bowling 
+                            section of its length, and faced the same as the backdrop gave the lanes their visual appeal. Extending 
+                            that theme the rest of the way down the wall connected the once very separate areas. The black and white 
+                            x pattern played in well with the white floors of the Einstein Room that had black highlights in it, and 
+                            made the Control Desk part of both as it should have been from the beginning.
+                            </p>
+                    </div>
+                    <!-- image of wallpaper wall before the project stopped entirely -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above of wall with step and repeat designs applied in Unity</div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Einstein Room</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>Even though the request to redesign the step and repeat wall was technically what started the project, it 
+                            was being able to redesign a room that was named after one of my personal historic heros that shoved it 
+                            toward what it ended up being. Every Lucky Strike venue at the time had its own theme to it. And Albert 
+                            Einstein was a part of San Franciscos. 
+                            </p>
+                    </div>
+                    <!-- image of Einstein mural as it is/was -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above of original mural that may still be as it was when the venue opened</div>
+                    </div>
+                    <!-- image of rough ceiling mural designs initial drowings 3, 4 and 6 from drive design folder combined into single image -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above of drawings during designing what the ceiling mural should consist of</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The orignal design of the room was very plain and only had a single mural on a single despite the whole room 
+                            being named after him. And it really didn't show the genius that his work obviously was. So I set out to 
+                            display his life on all the surfaces that would hold something worth admiring for a while, including the 
+                            ceiling.
+                            </p>
+                    </div>
+                    <!-- image of rough ceiling mural designs initial drowings 1 and 2 from drive design folder combined into single image -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above of ceiling mural almost flushed out and color being added</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The ceiling was largest canvas to try displaying the geniuses work in as much detail as possible. And like 
+                            most designs, sketching things old and playing with ideas is usually the best way to start.
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Dining Room</h4>
+                        </div>
+                        <p>Though, using Photoshop also makes a great way to quickly put something together to run ideas up the chain 
+                            before implementing them into 3D. Crafting simple proposals from doctored pictures helped convey several 
+                            visual ideas, as well as functional ones. One of my positions at Lucky Strike labled me as being a mechanic. 
+                            Which meant I not only fixed the bowling lanes, but also maintained the venue as a whole.
+                            </p>
+                    </div>
+                    <!-- image of dining room with no photoshop -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above unphotoshopped dining room</div>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>This position gave me a perspective that allowed for many levels of reasoning behind the designs that were 
+                            proposed, and the ability to build them in both a virtual space and out here in the real-real. Resulting 
+                            in nearly every one being approved. Most of what held back the remodeling aspects of the project was time, 
+                            and of course money. 
+                            </p>
+                    </div>
+                    <!-- image of dining room with photoshop -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/HorizontalImageDisplay_Template.png" alt="">
+                        <div class="project-caption-description">image above photoshopped dining room</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- status and availability section start -->
+        <section class="project-status-availability" id="project-status-availability">
+            <div class="max-width">
+                <h2 class="title">Project status and availability</h2>
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Status</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="project-text">
+                    <p>???
+                        </p>
+                    <p>???
+                        </p>
+                </div>
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Availability</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="project-text">
+                    <p>???
+                        </p>
+                    <p>???
+                        </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+<script src="js/script.js"></script>
+<script src="landingPageFunctionalityScript.js"></script>
+
+
+</body>
+</html>
