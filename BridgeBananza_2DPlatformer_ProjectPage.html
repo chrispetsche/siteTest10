@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic elements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chris Petsche ~ Portfolio ~</title>
+
+    <!-- Links and extensions -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fa0cbf6eab.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=El+Messiri|Kaushan+Script|Niconne|Open+Sans:800|Oregano|Philosopher|Teko|Quicksand&display=swap');
+    </style>
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/siteMainStyles.css">
+    <link rel="stylesheet" href="landingPageStyles.css">
+    <link rel="stylesheet" href="projectPageStyles.css">
+    <link rel="stylesheet" href="css/additionalFeatureStyles.css">
+    <link rel="stylesheet" href="css/glowButtonStyle.css">
+</head>
+
+<body onload="InitializeFunctionsAndInteractions()">
+    
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header id="header">
+        <div>
+            <div class="site-title-container">
+                <h1 class="site-title"><a href="portfolioLandingPage.html">Chris Petsche</a></h1>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <h5 class="siteTypeText">~ Portfolio ~</h5>
+            </div>
+        </div>
+    </header>
+
+    <div id="side-profile">
+        <div class="profile">
+            <img src="img/MFAGradPic.png" alt="" class="img-fluid rounded-circle">
+        </div>
+        <!-- Navigation menu-->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html#home" class="side-profile-btn neon-nav-button">Home</a></li>
+                <li><a href="#project-header" class="side-profile-btn neon-nav-button">Project Intro</a></li>
+                <li><a href="#project-description" class="side-profile-btn neon-nav-button">Project Description</a></li>
+                <li><a href="#contributions" class="side-profile-btn neon-nav-button">My Contributions</a></li>
+                <li><a href="#project-status-availability" class="side-profile-btn neon-nav-button">Status and Availability</a></li>
+                <li><a href="index.html#contact" class="side-profile-btn neon-nav-button">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- footer section start -->
+        <div class="header-base">
+            <span>Site Created By <a href="#">Chris Petsche</a> ~ <span class="far fa-copywrite"></span> 2021 All rights reserved.</span>
+        </div>
+    </div>
+
+    <div class="pg-main-body">
+        <!-- project intro section start -->
+        <section class="project-header" id="project-header">
+            <div class="max-width">
+                <div class="project-header-content">
+                    <!-- image of refined title -->
+                    <div class="bridgeBananza-projectTitle-img-container">
+                        <img id="project-header-img" src="img/Projects/BridgeBananza/BridgeBananza_Title.png" alt="">
+                    </div>
+                      
+                    <hr>
+                    <p class="project-header-text">A short 2.5D Physcis Based Platformer that was a very amusing time killer, tasking 
+                        players with the challenge of stacking the pieces provided to bridge the gaps, avoid a variety of deadly obstacles 
+                        and try to get the monkey to the giant banana.
+                        </p>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- project description section start -->
+        <section class="project-description" id="project-description">
+            <div class="max-width">
+                <h2 class="title">Project description</h2>
+                <div class="project-description-content">
+                    <div class="project-text">
+                        <p>Being probably my favorite project so far, and my first project that went from concept to launch, this was a 
+                            six week sprint during a prototyping class in grad school. 1 of 2 sprints where we were all challenged to 
+                            pitch a game idea and then break up into groups based on the pitches we each presented to each other, with 
+                            most sacrificing their ideas to help bring someone elses to life. As it often can be in many big name studios.
+                            </p>
+                    </div>
+
+                    <!-- video of gameplay -->
+                    <div class="project-video-container">
+                        <iframe class="project-video" src="https://www.youtube.com/embed/Q9MaUMX446A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="project-caption-description">video above of full game walk-through</div>
+                    </div>
+
+                    <div class="project-text">
+                        <p>There was two of us on this particular project. The smallest team in the class, and our workload was split 
+                            according to our desired fields at the time. And worked out very nicely. My partner Will Burke, was the 
+                            better artist and knew a fair share of coding. 
+                            </p>
+                            <br>
+                        <p>This allowed us to find some common ground that we took advantage of when it came time for the integration of 
+                            all the pieces that made it through design and development process that resulted in the finshed game. The 
+                            integration actually being my largest contribution beyond what you'll see below.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- my contributions section start -->
+        <section class="contributions" id="contributions">
+            <div class="max-width">
+                <h2 class="title">My contributions</h2>
+                <div class="contributions-description-content">
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Level Design and Development</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>My aim with the level design was to fulfill 3 primary tasks: 
+                            <br><br>
+                        - Metrics: Establish scale and movement parameters <br>
+                        - Bridge piece type/ quantity: Design the types of pieces the player uses to build their bridge that fit 
+                            the primary mechanics of the game. Then, tested each level to determine the number of pieces it would 
+                            take based on the intended difficulty curve <br>
+                        - Difficulty curve: Design and test a series of level setups to find a challenging but fun experience 
+                            in only a few short scenarios
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>Once all the needed parts of the metrics were flushed out, like how far or high the monkey moved per 
+                            stride or leap, multiple types of bridge building elements were chosen that fit a jungle setting. Then 
+                            tested repeatedly to see how they felt during assembly, as well as how they reacted when their physics 
+                            were turned back on and the monkey was released to make its run. Of about a dozen types, 4 were chosen:
+                            </p>
+                    </div>
+                    <!-- image of bridge building pieces -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_BridgePieces_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of bridge pieces</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>Each type of piece adding its own unique touch to the gameplay and overall fun factor once the player is 
+                            done constructing their bridge(s): <br><br>
+                            - Bamboo: long and skinny, can fall over very easy when stood on end <br>
+                            - Rock Slabs and Logs: short, thick and heavy <br>
+                            - Boulders: heavy and they roll
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>Having just 6 weeks to accomplish the project between only 2 of us, some things had to be trimmed back as 
+                            time began to run out. The number of levels needed to be compressed so that the overall experience 
+                            still held a challenging yet fun difficulty curve. And so that the project could be completed with a 
+                            clean and very presentable game. 
+                            </p>
+                    </div>
+                    
+                    <div class="contribution-piece-title">
+                        <h4>Level 1: Tutorial</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>Level 1, like most games, was the tutorial explaining how to select, rotate and move the bridge pieces. And 
+                            then how turn on the physics and release the monkey when the player felt they wanted to try their bridge out. 
+                            This is also the only level that the monkey couldn't die, and players allowed to toggle back and forth between 
+                            the construction and play modes by pressing the "Reset Pieces" button in the bottom right of the screen.
+                            </p>
+                    </div>
+                    <!-- image of level 1 -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_IntroScreen_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of level 1</div>
+                    </div>
+
+                    <!-- image of level 2 -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_PlayImg1_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of level 2</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <div class="contribution-piece-title">
+                            <h4>Level 2: Moderate Challenge</h4>
+                        </div>
+                        <p>The next level increases the challenge with a set of spikes and a bottomless pit. But there is a 
+                            section between them intended to give the player a brief moment of relief.
+                            </p>
+                    </div>
+
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Level 3: Heavy Challenge</h4>
+                        </div>
+                        <p>Finally, in the last level, getting the giant banana should of course be the most difficult. Not too 
+                            much has changed in this level but the releif point between the spikes and the bottomless pit is 
+                            replaced by more spikes, and there was a slight overhang at the far end of the pit to give the player 
+                            an advantage in level 2. The size of the pit was designed to be barely jumpable from one edge to the 
+                            other. So the removal of just those 2 pieces made the run quite a bit more challenging.
+                            </p>
+                    </div>
+                    <!-- image of level 3 -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_PlayImg2_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of level 3</div>
+                    </div>
+                    <div class="project-text">
+                        <p>Setting up the second and third level in the way that they are made construction during crunch time far 
+                            easier as well. If you notice that the extended spikes in level 3 were just overlayed by the relief point 
+                            in level 2, and the overhang on the far side of the pit was just a couple of the rock slab bridge pieces that 
+                            were unusable by the player. All of which was basically just turned on for one level and then turned off 
+                            for the next.
+                            </p>
+                    </div>
+
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">UI Development</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class="contribution-piece-title">
+                        <h4>Menu Screens</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>One part of developing the UI was taking Will's art, placing it on screen and then using Unity's old NGUI 
+                            system to set where the buttons were. Then script the buttons to toggle through the 3 assembled menu screens.
+                            </p>
+                    </div>
+                    <!-- image of main menu -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_TitleScreen_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of game main menu</div>
+                    </div>
+                    <!-- image of controls menu -->
+                    <div class="column double-image-portion right">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_UIControlsScreen_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of game controls for pc play</div>
+                    </div>
+                    <!-- image of credits menu -->
+                    <div class="column double-image-portion left">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_UICreditsScreen_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of credit toward all parties involved in game creation</div>
+                    </div>
+                    <div class="project-text">
+                        <div class="contribution-piece-title">
+                            <h4>Character Controller</h4>
+                        </div>
+                        <p>Another crucial part of developing the gameplay, especially during the initial metrics design period, was 
+                            building the character controller. This was primarily done with a 3D capsule that Unity provides with the 
+                            typical PC controls that I coded for the running and jumping.
+                            </p>
+                    </div>
+
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>In-game Elements</h4>
+                        </div>
+                        <p>The other half of my UI contributions were to set up the gameplay elements that kept the player informed 
+                            through each of the levels, like...  
+                            <br><br>
+                        - The number of lives they had (accompanied by coin at top left) <br>
+                        - How many banana points had been collected throughout the game (accompanied by banana at top right) <br>
+                        - And a temporary popup message to let the player know that a life or some banana points had been collected and 
+                        their value (at center screeen)
+                            </p>
+                    </div>
+                    <!-- image of gameplay ui piece magnification -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_UIEvolvingInGame_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of evolving in-game ui</div>
+                    </div>
+
+
+
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Gameplay System Design and Development</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="contribution-piece-title">
+                        <h4>Construction/Play Mode</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>One of the most important elements of the game, if not the most important, was the Construction/ Play Mode 
+                            Toggle. It was what separated the ability to make bridges without the interference physics.
+                            </p>
+                            <br>
+                        <p>When a level opened it was automatically set to Construction Mode, and the image of the crane in the UI at 
+                            the top center of the screen was highlighted. This meant all physics were turned off as mentioned. But it 
+                            also meant that the bridge pieces provided in each level could be selected and manipulated to build the 
+                            bridges, and the monkey stayed in place as it was not yet controllable. 
+                            </p>
+                    </div>
+                    <!-- image of ui construction mode enabled -->
+                    <div class="column double-image-portion right">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_UIConstructionMode_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of ui indicating game is in construction mode</div>
+                    </div>
+                    <!-- image of ui play mode enabled -->
+                    <div class="column double-image-portion left">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_UIPlayMode_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of ui indicating game is in play mode</div>
+                    </div>
+                    <div class="project-text">
+                        <p>Typically, with the exception of the tutorial level, the Play Mode side of the UI was the only clickable 
+                            element. When selected, the ability to select bridge pieces was turned off, physics was turned on and 
+                            applied to all applicable elements, including the monkey that also became controllable. And finally, the 
+                            Play Mode side of the UI was highlighted to indicate that the game was then in play mode.
+                            </p>
+                    </div>
+
+
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Scoring System</h4>
+                        </div>
+                        <p>To help make the game fun, like most, a system of reward was created and installed. It basically followed the 
+                            standard for games such as this. The collection of a theme based piece (the bananas), and the bonus of 
+                            collecting lives (the coins).
+                            </p>
+                        <p>Adding up to an arbitrary perfect score of 6,740 points in total if everything is collected and the player never 
+                            dies. Which, especially in trying to get that giant banana, could be very challenging when everything went 
+                            into motion!
+                            </p>
+                    </div>
+                    <!-- image of gameplay element values and score screen split -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/BridgeBananza/BridgeBananza_ScoreScreen_Fitted.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- status and availability section start -->
+        <section class="project-status-availability" id="project-status-availability">
+            <div class="max-width">
+                <h2 class="title">Project status and availability</h2>
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Status</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="status-availability project-text">
+                    <p>The finished game was demoed at GDC 2014 in the Academy of Art school booth and at the schools Spring Show. It 
+                        was also featured on machines in the schools game development building for the entire next school year, and was 
+                        again scheduled to be demoed at GDC 2015 but unfortunately was not due to technical issues with the machine.
+                    </p>
+                </div>
+
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Availability</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="status-availability project-text">
+                    <p>Another unfortunate incident with Dropbox lead to the corruption of the files. All that remains is what has been 
+                        shared here.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+<script src="js/script.js"></script>
+<script src="landingPageFunctionalityScript.js"></script>
+
+
+</body>
+</html>
